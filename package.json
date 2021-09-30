@@ -1,23 +1,26 @@
 {
-  "name": "lumiastream-socket-demo-js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lumiastream/lumiastream-socket-demo-js.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lumiastream/lumiastream-socket-demo-js/issues"
-  },
-  "homepage": "https://github.com/lumiastream/lumiastream-socket-demo-js#readme",
-  "dependencies": {
-    "socket.io-client": "^2.3.0"
-  }
+	"name": "lumiastream-socket-demo-js",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lumiastream/lumiastream-socket-demo-js.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lumiastream/lumiastream-socket-demo-js/issues"
+	},
+	"homepage": "https://github.com/lumiastream/lumiastream-socket-demo-js#readme",
+	"dependencies": {
+		"sockette": "^2.0.6"
+	},
+	"optionalDependencies": {
+		"ws": "^8.2.2"
+	}
 }
